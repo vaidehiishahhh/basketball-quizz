@@ -1,0 +1,138 @@
+body {
+    font-family: "Dancing Script", cursive;
+    background: linear-gradient(135deg, #ffe4e1, #e0f7fa);
+    margin: 0;
+    padding: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');  
+  .quiz-container {
+    background: #fffaf0;
+    padding: 30px;
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  #description {
+    background: #fff0f6;
+    border: 2px solid #ffcce7;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 5px 15px rgba(255, 170, 204, 0.2);
+  }
+  
+  #description h2 {
+    color: #d76da7;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  #quiz label {
+    font-size: 18px;
+    display: block;
+    margin: 6px 0;
+    color: #4a3c5f;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #444;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    background: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  label:hover {
+    background: #d8f3dc;
+  }
+  
+  button {
+    background: #ffb6b9;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #ff6f61;
+  }
+  
+  .feedback {
+    margin-top: 10px;
+    font-style: italic;
+    color: #704e85;
+    background: #f7f0ff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  
+  #result {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: #fbeaff; /* pastel purple-pink */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 10;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: #3d3d3d;
+  }
+  
+  #result h3 {
+    font-size: 32px;
+    color: #2b2b2b;
+    margin-bottom: 15px;
+  }
+  #retry {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb3d1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Dancing Script", cursive;
+    transition: all 0.3s ease;
+  }
+  #retry:hover {
+    background-color: #ffa6c9;
+    transform: scale(1.05);
+  }
+  
+  #overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 9;
+  }
+  
+  
